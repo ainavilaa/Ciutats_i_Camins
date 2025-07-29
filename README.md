@@ -68,26 +68,19 @@ To initialize the game, the input must follow a specific format and ordering.
 
 **Things to take into consideration:** 
 
-- Turn Management
-The number of turns must be a positive integer. As soon as the game is initialized, the variable that keeps track of the current turn starts at number 1, and its value must not exceed the total number of turns specified. 
+- **Turn Management**: The number of turns must be a positive integer. As soon as the game is initialized, the variable that keeps track of the current turn starts at number 1, and its value must not exceed the total number of turns specified. 
 
-- Action Cost
-The price to carry out any action (path building, city building or destruction) is a positive integer. 
+- **Action Cost**: The price to carry out any action (path building, city building or destruction) is a positive integer. 
 
-- Initial cash
-The initial cash assigned can be any integer value. If it is negative, it simply indicates a negative starting balance. Regardless of the initial cash, players can still participate in the game.
+- **Initial cash**: The initial cash assigned can be any integer value. If it is negative, it simply indicates a negative starting balance. Regardless of the initial cash, players can still participate in the game.
 
-- Maximum City Building
-Since the game starts with one city per player, the maximum number of cities that can be built, must be a positive integer. 
+- **Maximum City Building**: Since the game starts with one city per player, the maximum number of cities that can be built, must be a positive integer. 
 
-- Board Size
-The size of the game board has to be defined with positive integers for both height and width coordinates.
+- **Board Size**: The size of the game board has to be defined with positive integers for both height and width coordinates.
 
-- Resource Distribution
-Can be positive or negative values, as they do not affect the game's functionality. 
+- **Resource Distribution**: Can be positive or negative values, as they do not affect the game's functionality. 
 
-- Number of players
-The number of players has to be a positive integer, as this determines the number of people who take part in the game. 
+- **Number of players**: The number of players has to be a positive integer, as this determines the number of people who take part in the game. 
 
 **Game instructions**
 
